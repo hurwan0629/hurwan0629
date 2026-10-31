@@ -1,14 +1,8 @@
-
 <div align="center">
 
-<h1>👋 Hi, I'm Hurwan</h1>
+<h1>기술의 동작 원리를 이해하고, 실제 문제를 해결하는 서비스를 만드는 개발자 허완입니다.</h1>
 
 <h3>Backend & AI Service Developer</h3>
-
-<p>
-기술의 동작 원리를 이해하고,<br>
-실제 문제를 해결하는 서비스를 만드는 개발자입니다.
-</p>
 
 <p>
 Backend · AI/ML · System Design
@@ -51,59 +45,68 @@ Backend · AI/ML · System Design
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Team Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🏃 RunStop
-
-**Running Route Recommendation**
-
-사용자 조건과 공간 데이터를 활용한
-러닝 경로 추천 서비스
-
-- 경로 추천 알고리즘 개발
-- 추천·랭킹 모델 실험
-- 백엔드 및 모바일 앱 연동
-- 실제 러닝 환경에서 기능 검증
-
-`Node.js` `FastAPI` `PostGIS`
-
+  <h3>🏃 <a href="https://app.notion.com/p/93c4bef3cd8549f3b84e0801bbb43b8b">RunStop</a></h3>
+  <p><strong>Running Route Recommendation</strong></p>
+  <p>사용자 조건과 공간 데이터를 활용한 러닝 코스 추천 서비스</p>
+  <ul>
+    <li>경로 탐색 알고리즘 개발 및 랭킹 모델 실험</li>
+    <li>백엔드 API와 모바일 앱 연동</li>
+    <li>실제 러닝 환경에서 기능 검증 및 개선</li>
+  </ul>
+  <p><code>Node.js</code> <code>FastAPI</code> <code>PostGIS</code></p>
+  <p>
+    <a href="https://app.notion.com/p/93c4bef3cd8549f3b84e0801bbb43b8b">
+      <img src="https://img.shields.io/badge/Notion-Project%20Docs-111111?style=flat-square&logo=notion&logoColor=white" alt="RunStop Notion 문서"/>
+    </a>
+    <a href="https://github.com/hurwan0629/RunStop">
+      <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white" alt="RunStop GitHub 코드"/>
+    </a>
+  </p>
 </td>
 <td width="50%" valign="top">
-
-### 🤖 Reinforcement Learning
-
-**RL Algorithms & Experiments**
-
-강화학습 알고리즘 원리 학습 및 구현
-
-- MC, TD, SARSA, Q-Learning
-- Actor-Critic, PPO
-- Gymnasium 환경 구성
-- Stable-Baselines3 기반 학습 실험
-
-`Python` `PyTorch` `SB3`
-
+  <h3>🛍️ <a href="https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1">Ornably</a></h3>
+  <p><strong>Spring 기반 쇼핑몰 웹 서비스</strong></p>
+  <p>사용자 인증과 상품·주문 흐름을 구현한 팀 프로젝트</p>
+  <ul>
+    <li>Spring Security 기반 인증·인가 및 OAuth2 연동</li>
+    <li>React 프론트엔드와 백엔드 API 연동</li>
+    <li>데이터베이스 연동 및 Docker 기반 배포</li>
+  </ul>
+  <p><code>Spring Boot</code> <code>React</code> <code>MySQL</code></p>
+  <p>
+    <a href="https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1">
+      <img src="https://img.shields.io/badge/Notion-Project%20Docs-111111?style=flat-square&logo=notion&logoColor=white" alt="Ornably Notion 문서"/>
+    </a>
+    <a href="https://github.com/hurwan0629/BugSandwichOrnamentMall">
+      <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white" alt="Ornably GitHub 코드"/>
+    </a>
+  </p>
 </td>
 </tr>
 </table>
 
----
+## 🧪 Study & Experiments
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img
-  src="https://streak-stats.demolab.com?user=hurwan0629&theme=tokyonight&hide_border=true"
-  width="75%"
-  alt="GitHub Streak Stats"
-/>
-
-</div>
+<table>
+<tr>
+<td valign="top">
+  <h3>🤖 Reinforcement Learning</h3>
+  <p><strong>RL Algorithms & Experiments</strong></p>
+  <p>MC, TD, SARSA, Q-Learning부터 Actor-Critic, PPO까지 구현하며 학습한 기록</p>
+  <p><code>Python</code> <code>PyTorch</code> <code>Gymnasium</code> <code>SB3</code></p>
+  <p>
+    <a href="https://app.notion.com/p/409117a41d4d80b0983cf23c2e259bf6">
+      <img src="https://img.shields.io/badge/Notion-Study%20Notes-111111?style=flat-square&logo=notion&logoColor=white" alt="강화학습 Notion 학습 기록"/>
+    </a>
+  </p>
+</td>
+</tr>
+</table>
 
 ---
 

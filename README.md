@@ -1,49 +1,120 @@
 
-# Hi, I'm a Backend & AI Service Developer 👋
+<div align="center">
 
-기술의 동작 원리를 이해하고,
+<h1>👋 Hi, I'm Hurwan</h1>
+
+<h3>Backend & AI Service Developer</h3>
+
+<p>
+기술의 동작 원리를 이해하고,<br>
 실제 문제를 해결하는 서비스를 만드는 개발자입니다.
+</p>
 
-웹 서비스 개발부터 AI 모델 학습, 알고리즘 구현,
-서버 배포까지 폭넓게 경험하고 있습니다.
+<p>
+Backend · AI/ML · System Design
+</p>
+
+<a href="https://app.notion.com/p/1be117a41d4d80feae10fe11f2262b54">
+  <img src="https://img.shields.io/badge/Notion-Portfolio-111111?style=for-the-badge&logo=notion&logoColor=white"/>
+</a>
+<a href="https://hurwan.tistory.com">
+  <img src="https://img.shields.io/badge/Tistory-Blog-FF5A4A?style=for-the-badge&logo=tistory&logoColor=white"/>
+</a>
+
+</div>
+
+---
 
 ## 🛠 Tech Stack
 
-**Backend**
-- Java · Spring Boot · Spring Security
-- Python · FastAPI · Node.js · Express
+### Backend
 
-**AI / Machine Learning**
-- PyTorch · Scikit-learn
-- LangChain · RAG · Hugging Face
-- Reinforcement Learning · PPO
+<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi,nodejs,express&theme=dark" alt="Backend Stack"/>
 
-**Database & Infrastructure**
-- PostgreSQL · MySQL · Redis
-- Docker · AWS EC2 · GitHub Actions
+### AI / Machine Learning
 
-**Frontend**
-- React · Next.js · TypeScript
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,opencv&theme=dark" alt="AI Stack"/>
 
-## 🔗 Portfolio & Blog
+<p>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAG-4B77BE?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Reinforcement_Learning-8A2BE2?style=flat-square"/>
+</p>
 
-- 📁 [Notion Portfolio](https://YOUR_NOTION_URL)
-- 📝 [Tistory Blog](https://hurwan.tistory.com)
+### Database & Infrastructure
 
-## 🚀 Projects
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,nginx,githubactions&theme=dark" alt="Infrastructure Stack"/>
 
-### RunStop — Running Route Recommendation
-사용자 조건과 공간 데이터를 활용한 러닝 경로 추천 서비스
-- 경로 추천 알고리즘 및 랭킹 모델 실험
-- Node.js, FastAPI, PostgreSQL, PostGIS
-- React Native 기반 모바일 애플리케이션
+### Frontend
 
-### Reinforcement Learning
-강화학습 알고리즘의 원리 이해 및 구현
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind&theme=dark" alt="Frontend Stack"/>
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏃 RunStop
+
+**Running Route Recommendation**
+
+사용자 조건과 공간 데이터를 활용한
+러닝 경로 추천 서비스
+
+- 경로 추천 알고리즘 개발
+- 추천·랭킹 모델 실험
+- 백엔드 및 모바일 앱 연동
+- 실제 러닝 환경에서 기능 검증
+
+`Node.js` `FastAPI` `PostGIS`
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 Reinforcement Learning
+
+**RL Algorithms & Experiments**
+
+강화학습 알고리즘 원리 학습 및 구현
+
 - MC, TD, SARSA, Q-Learning
 - Actor-Critic, PPO
-- Gymnasium, Stable-Baselines3
+- Gymnasium 환경 구성
+- Stable-Baselines3 기반 학습 실험
 
-## 📈 GitHub Activity
+`Python` `PyTorch` `SB3`
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=github-compact)
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=hurwan0629&theme=tokyonight&hide_border=true"
+  width="75%"
+  alt="GitHub Streak Stats"
+/>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🔗 Connect
+
+<a href="https://app.notion.com/p/1be117a41d4d80feae10fe11f2262b54">Portfolio</a>
+&nbsp;•&nbsp;
+<a href="https://hurwan.tistory.com">Tech Blog</a>
+&nbsp;•&nbsp;
+<a href="https://github.com/hurwan0629">GitHub</a>
+
+</div>

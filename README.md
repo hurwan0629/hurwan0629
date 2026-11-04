@@ -1,123 +1,85 @@
 <div align="center">
 
-<h1>기술의 동작 원리를 이해하고, 실제 문제를 해결하는 서비스를 만드는 개발자 허완입니다.</h1>
+![RunStop 모바일 앱, Node.js API, FastAPI Worker, PostGIS 구성도](assets/profile-hero.svg)
 
-<h3>Backend & AI Service Developer</h3>
+# 문제를 구조로 이해하고, 코드로 검증합니다.
 
-<p>
-Backend · AI/ML · System Design
-</p>
+안녕하세요. 개발자 **허완**입니다. 백엔드와 데이터 기반 서비스를 구현하며, 설계한 시스템이 실제로 어떻게 동작하는지 확인하는 과정을 중요하게 생각합니다.
 
-<a href="https://app.notion.com/p/1be117a41d4d80feae10fe11f2262b54">
-  <img src="https://img.shields.io/badge/Notion-Portfolio-111111?style=for-the-badge&logo=notion&logoColor=white"/>
-</a>
-<a href="https://hurwan.tistory.com">
-  <img src="https://img.shields.io/badge/Tistory-Blog-FF5A4A?style=for-the-badge&logo=tistory&logoColor=white"/>
-</a>
+**Backend · AI/ML · Engineering**
+
+[프로젝트 보기](#selected-work) · [포트폴리오](https://app.notion.com/p/1be117a41d4d80feae10fe11f2262b54) · [기술 블로그](https://hurwan.tistory.com)
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
+## Selected work
 
-### Backend
+### RunStop · 러닝 코스 추천 서비스
 
-<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi,nodejs,express&theme=dark" alt="Backend Stack"/>
+**2026.08.23 – 2026.09.20 · 팀 프로젝트**
 
-### AI / Machine Learning
+거리, 경사, 주변 시설과 시간 정보를 고려해 러닝 코스를 제안하는 서비스입니다. 모바일 앱, Node.js API, FastAPI Worker와 PostgreSQL/PostGIS를 연결했습니다.
 
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,opencv&theme=dark" alt="AI Stack"/>
+참여자 기록에 따르면 **서비스 아키텍처·DB·서버 설계, 프로젝트 문서화, AI 추천 모델** 작업에 참여했습니다.
 
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAG-4B77BE?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Reinforcement_Learning-8A2BE2?style=flat-square"/>
-</p>
+`Node.js` `FastAPI` `PostgreSQL / PostGIS` `Docker`
 
-### Database & Infrastructure
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,nginx,githubactions&theme=dark" alt="Infrastructure Stack"/>
+<img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/9.jpg" width="24%" alt="RunStop 추천 코스 비교 화면">
+<img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/11.jpg" width="24%" alt="RunStop 코스 상세 지도 화면">
+<img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/12.jpg" width="24%" alt="RunStop 실시간 러닝 화면">
 
-### Frontend
+</div>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind&theme=dark" alt="Frontend Stack"/>
+[코드와 README](https://github.com/hurwan0629/RunStop) · [설계 및 개발 기록](https://app.notion.com/p/93c4bef3cd8549f3b84e0801bbb43b8b)
+
+### Space Z · 강화학습 실험
+
+Python/Pygame 게임을 강화학습 환경과 연결하고 PPO 학습을 실험한 팀 프로젝트입니다. 실험 과정과 시각화 기록을 저장소에서 확인할 수 있습니다.
+
+`Python` `Pygame` `PyTorch` `Gymnasium` `Stable-Baselines3`
+
+![Space Z 강화학습 시각화 기록](https://raw.githubusercontent.com/hurwan0629/kdt-final-3-space-z/main/assets/img/gpt_training/visual_006_full__step_001062.png)
+
+[코드와 README](https://github.com/hurwan0629/kdt-final-3-space-z) · [강화학습 환경 문서](https://github.com/hurwan0629/kdt-final-3-space-z/blob/main/src/space_z/rl/README.md)
+
+### Ornably · 쇼핑몰 웹 서비스
+
+**2025.11.19 – 2026.01.08 · 4명 팀 프로젝트**
+
+로그인, 상품, 주문, 결제 흐름을 구현하며 웹 서비스의 구조를 학습한 프로젝트입니다. 저장소의 구현은 Java Servlet/JSP, JDBC, Oracle 기반입니다.
+
+`Java` `Servlet / JSP` `JDBC` `Oracle`
+
+![Ornably 프로젝트 이미지](https://raw.githubusercontent.com/hurwan0629/BugSandwichOrnamentMall/main/src/main/webapp/images/ORNABLY.jpg)
+
+[코드와 README](https://github.com/hurwan0629/BugSandwichOrnamentMall) · [프로젝트 문서](https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1)
 
 ---
 
-## 🚀 Team Projects
+## 개발 접근 방식
 
-<table>
-<tr>
-<td width="50%" valign="top">
-  <h3>🏃 <a href="https://app.notion.com/p/93c4bef3cd8549f3b84e0801bbb43b8b">RunStop</a></h3>
-  <p><strong>Running Route Recommendation</strong></p>
-  <p>사용자 조건과 공간 데이터를 활용한 러닝 코스 추천 서비스</p>
-  <ul>
-    <li>경로 탐색 알고리즘 개발 및 랭킹 모델 실험</li>
-    <li>백엔드 API와 모바일 앱 연동</li>
-    <li>실제 러닝 환경에서 기능 검증 및 개선</li>
-  </ul>
-  <p><code>Node.js</code> <code>FastAPI</code> <code>PostGIS</code></p>
-  <p>
-    <a href="https://app.notion.com/p/93c4bef3cd8549f3b84e0801bbb43b8b">
-      <img src="https://img.shields.io/badge/Notion-Project%20Docs-111111?style=flat-square&logo=notion&logoColor=white" alt="RunStop Notion 문서"/>
-    </a>
-    <a href="https://github.com/hurwan0629/RunStop">
-      <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white" alt="RunStop GitHub 코드"/>
-    </a>
-  </p>
-</td>
-<td width="50%" valign="top">
-  <h3>🛍️ <a href="https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1">Ornably</a></h3>
-  <p><strong>Spring 기반 쇼핑몰 웹 서비스</strong></p>
-  <p>사용자 인증과 상품·주문 흐름을 구현한 팀 프로젝트</p>
-  <ul>
-    <li>Spring Security 기반 인증·인가 및 OAuth2 연동</li>
-    <li>React 프론트엔드와 백엔드 API 연동</li>
-    <li>데이터베이스 연동 및 Docker 기반 배포</li>
-  </ul>
-  <p><code>Spring Boot</code> <code>React</code> <code>MySQL</code></p>
-  <p>
-    <a href="https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1">
-      <img src="https://img.shields.io/badge/Notion-Project%20Docs-111111?style=flat-square&logo=notion&logoColor=white" alt="Ornably Notion 문서"/>
-    </a>
-    <a href="https://github.com/hurwan0629/BugSandwichOrnamentMall">
-      <img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white" alt="Ornably GitHub 코드"/>
-    </a>
-  </p>
-</td>
-</tr>
-</table>
+1. 요구사항과 데이터 흐름을 먼저 정리합니다.
+2. 구현한 기능을 실제 사용 흐름에서 확인합니다.
+3. 실험 과정과 설계 판단을 문서로 남깁니다.
 
-## 🧪 Study & Experiments
+## 사용한 기술
 
-<table>
-<tr>
-<td valign="top">
-  <h3>🤖 Reinforcement Learning</h3>
-  <p><strong>RL Algorithms & Experiments</strong></p>
-  <p>MC, TD, SARSA, Q-Learning부터 Actor-Critic, PPO까지 구현하며 학습한 기록</p>
-  <p><code>Python</code> <code>PyTorch</code> <code>Gymnasium</code> <code>SB3</code></p>
-  <p>
-    <a href="https://app.notion.com/p/409117a41d4d80b0983cf23c2e259bf6">
-      <img src="https://img.shields.io/badge/Notion-Study%20Notes-111111?style=flat-square&logo=notion&logoColor=white" alt="강화학습 Notion 학습 기록"/>
-    </a>
-  </p>
-</td>
-</tr>
-</table>
+| 영역 | 프로젝트에서 사용한 기술 |
+| --- | --- |
+| Backend | Java, Servlet/JSP, Node.js, FastAPI |
+| Data & AI | PostgreSQL/PostGIS, Oracle, Python, PyTorch, Gymnasium |
+| Tools | Docker, GitHub |
 
 ---
 
 <div align="center">
 
-### 🔗 Connect
+**기록과 코드 더 보기**
 
-<a href="https://app.notion.com/p/1be117a41d4d80feae10fe11f2262b54">Portfolio</a>
-&nbsp;•&nbsp;
-<a href="https://hurwan.tistory.com">Tech Blog</a>
-&nbsp;•&nbsp;
-<a href="https://github.com/hurwan0629">GitHub</a>
+[포트폴리오](https://app.notion.com/p/1be117a41d4d80feae10fe11f2262b54) · [기술 블로그](https://hurwan.tistory.com) · [GitHub](https://github.com/hurwan0629)
 
 </div>

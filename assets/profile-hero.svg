@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="320" viewBox="0 0 1120 320" role="img" aria-labelledby="title desc">
+  <title id="title">RunStop system overview</title>
+  <desc id="desc">Mobile app and admin connect to a Node.js API, FastAPI worker and PostGIS.</desc>
+  <rect width="1120" height="320" rx="22" fill="#102820"/>
+  <circle cx="990" cy="10" r="240" fill="#1b3a30"/>
+  <circle cx="1030" cy="-20" r="170" fill="#24503d"/>
+  <path d="M0 80H1120M0 160H1120M0 240H1120M80 0V320M160 0V320M240 0V320M320 0V320M400 0V320M480 0V320M560 0V320M640 0V320M720 0V320M800 0V320M880 0V320M960 0V320M1040 0V320" stroke="#315745" opacity=".24"/>
+  <text x="48" y="55" fill="#cbe3d1" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">RUNSTOP / SYSTEM OVERVIEW</text>
+  <text x="48" y="104" fill="#ffffff" font-family="Arial,sans-serif" font-size="30" font-weight="700">From a running route to a working service.</text>
+  <rect x="48" y="150" width="235" height="68" rx="10" fill="#d7f0c5"/>
+  <text x="72" y="191" fill="#24482c" font-family="Arial,sans-serif" font-size="17" font-weight="700">MOBILE APP / ADMIN</text>
+  <path d="M283 184H342M576 184H634M830 184H875" stroke="#9ac9a5" stroke-width="3"/>
+  <rect x="342" y="150" width="234" height="68" rx="10" fill="#214437" stroke="#719c7e"/>
+  <text x="385" y="191" fill="#ffffff" font-family="Arial,sans-serif" font-size="17" font-weight="700">NODE.JS API</text>
+  <rect x="634" y="150" width="196" height="68" rx="10" fill="#214437" stroke="#719c7e"/>
+  <text x="654" y="191" fill="#ffffff" font-family="Arial,sans-serif" font-size="16" font-weight="700">FASTAPI WORKER</text>
+  <rect x="875" y="150" width="197" height="68" rx="10" fill="#214437" stroke="#719c7e"/>
+  <text x="930" y="191" fill="#ffffff" font-family="Arial,sans-serif" font-size="17" font-weight="700">POSTGIS</text>
+  <text x="48" y="277" fill="#a8c5b0" font-family="Arial,sans-serif" font-size="14">Backend · Data · AI/ML</text>
+  <text x="1072" y="277" text-anchor="end" fill="#a8c5b0" font-family="Arial,sans-serif" font-size="13">Simplified project architecture</text>
+</svg>

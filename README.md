@@ -16,9 +16,9 @@
 
 <table>
 <tr>
-<td width="33%" align="center"><img src="assets/icon-backend.svg" width="52" alt=""/><br><strong>Backend & Architecture</strong><br><sub>API · 데이터 흐름 · 서비스 연결</sub></td>
-<td width="33%" align="center"><img src="assets/icon-ai.svg" width="52" alt=""/><br><strong>AI / Machine Learning</strong><br><sub>추천 · 강화학습 실험</sub></td>
-<td width="33%" align="center"><img src="assets/icon-docs.svg" width="52" alt=""/><br><strong>Implementation & Docs</strong><br><sub>구현 · 검증 · 기록</sub></td>
+<td width="33%" align="center"><img src="assets/icon-backend.svg" width="52" alt=""/><br><strong>Backend</strong><br><sub>API · 데이터 흐름</sub></td>
+<td width="33%" align="center"><img src="assets/icon-ai.svg" width="52" alt=""/><br><strong>AI / ML</strong><br><sub>추천 · 강화학습</sub></td>
+<td width="33%" align="center"><img src="assets/icon-docs.svg" width="52" alt=""/><br><strong>Build & Docs</strong><br><sub>구현 · 검증 · 기록</sub></td>
 </tr>
 </table>
 
@@ -26,7 +26,7 @@
 
 ### 01 / RunStop
 
-<table width="100%"><tr><td>
+<table width="100%"><tr><td width="100%">
 <h4>러닝 코스 추천 서비스</h4>
 <p><strong>2026.08.23 – 2026.09.20 · 팀 프로젝트</strong></p>
 <p>거리, 경사, 주변 시설과 시간 정보를 고려해 러닝 코스를 제안합니다. 모바일 앱, Node.js API, FastAPI Worker와 PostgreSQL/PostGIS를 연결했습니다.</p>
@@ -43,21 +43,18 @@
 
 ### 02 / Space Z
 
-<table width="100%"><tr><td>
+<table width="100%"><tr><td width="100%">
 <h4>게임과 강화학습 실험</h4>
-<p>Python/Pygame 게임을 강화학습 환경과 연결하고 PPO 학습을 실험한 팀 프로젝트입니다. 이미지에는 게임의 대표 이미지와 실제 플레이 기록을 사용했습니다.</p>
+<p>Python/Pygame 게임을 강화학습 환경과 연결하고 PPO 학습을 실험한 팀 프로젝트입니다.</p>
 <p><code>Python</code> <code>Pygame</code> <code>PyTorch</code> <code>Gymnasium</code> <code>Stable-Baselines3</code></p>
-<p align="center">
-<img src="assets/space-z-cover.png" width="59%" alt="Space Z 프로젝트 Notion 대표 이미지">
-<img src="https://raw.githubusercontent.com/hurwan0629/kdt-final-3-space-z/main/assets/img/rotation_continuous/visual_selected_seed51001__step_012000.png" width="35%" alt="Space Z 실제 플레이 중 우주선 전직 선택 화면">
-</p>
-<p align="center"><sub>프로젝트 대표 이미지 · 실제 게임 플레이</sub></p>
-<p><a href="https://github.com/hurwan0629/kdt-final-3-space-z">코드와 README →</a> · <a href="https://github.com/hurwan0629/kdt-final-3-space-z/blob/main/src/space_z/rl/README.md">강화학습 환경 문서 →</a> · <a href="https://app.notion.com/p/3f7117a41d4d80c7920bc9feaf56b1ea">프로젝트 기록 →</a></p>
+<p align="center"><img src="assets/space-z-cover.png" width="620" alt="Space Z 프로젝트 Notion 대표 이미지"></p>
+<p align="center"><sub>프로젝트 Notion 대표 이미지</sub></p>
+<p><a href="https://github.com/hurwan0629/kdt-final-3-space-z">코드와 README →</a> · <a href="https://github.com/hurwan0629/kdt-final-3-space-z/blob/main/src/space_z/rl/README.md">강화학습 환경 문서 →</a> · <a href="https://github.com/hurwan0629/kdt-final-3-space-z/blob/main/assets/img/rotation_continuous/visual_selected_seed51001__step_012000.png">실제 플레이 화면 →</a> · <a href="https://app.notion.com/p/3f7117a41d4d80c7920bc9feaf56b1ea">프로젝트 기록 →</a></p>
 </td></tr></table>
 
 ### 03 / Ornably
 
-<table width="100%"><tr><td>
+<table width="100%"><tr><td width="100%">
 <h4>쇼핑몰 웹 서비스</h4>
 <p><strong>2025.11.19 – 2026.01.08 · 4명 팀 프로젝트</strong></p>
 <p>로그인, 상품, 주문, 결제 흐름을 구현하며 웹 서비스의 구조를 학습한 프로젝트입니다. 저장소의 구현은 Java Servlet/JSP, JDBC, Oracle 기반입니다.</p>

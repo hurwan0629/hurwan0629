@@ -26,51 +26,46 @@
 
 ### 01 / RunStop
 
-<table>
-<tr><td width="58%" valign="top">
-
+<table width="100%"><tr><td>
 <h4>러닝 코스 추천 서비스</h4>
 <p><strong>2026.08.23 – 2026.09.20 · 팀 프로젝트</strong></p>
-<p>거리, 경사, 주변 시설과 시간 정보를 고려해 러닝 코스를 제안하는 서비스입니다. 모바일 앱, Node.js API, FastAPI Worker와 PostgreSQL/PostGIS를 연결했습니다.</p>
+<p>거리, 경사, 주변 시설과 시간 정보를 고려해 러닝 코스를 제안합니다. 모바일 앱, Node.js API, FastAPI Worker와 PostgreSQL/PostGIS를 연결했습니다.</p>
 <p>참여자 기록에 따르면 <strong>서비스 아키텍처·DB·서버 설계, 프로젝트 문서화, AI 추천 모델</strong> 작업에 참여했습니다.</p>
 <p><code>Node.js</code> <code>FastAPI</code> <code>PostgreSQL / PostGIS</code> <code>Docker</code></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/9.jpg" width="29%" alt="RunStop 추천 코스 비교 화면">
+<img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/11.jpg" width="29%" alt="RunStop 코스 상세 지도 화면">
+<img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/12.jpg" width="29%" alt="RunStop 실시간 러닝 화면">
+</p>
+<p align="center"><sub>코스 비교 · 상세 지도 · 실시간 러닝</sub></p>
 <p><a href="https://github.com/hurwan0629/RunStop">코드와 README →</a> · <a href="https://app.notion.com/p/93c4bef3cd8549f3b84e0801bbb43b8b">설계 및 개발 기록 →</a></p>
+</td></tr></table>
 
-</td><td width="42%" align="center" valign="middle"><a href="https://github.com/hurwan0629/RunStop"><img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/11.jpg" width="230" alt="RunStop 코스 상세 지도 화면"></a><br><sub>코스 상세 지도</sub></td></tr>
-</table>
+### 02 / Space Z
 
-<div align="center">
-
-<a href="https://github.com/hurwan0629/RunStop"><img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/9.jpg" width="22%" alt="RunStop 추천 코스 비교 화면"></a>
-<a href="https://github.com/hurwan0629/RunStop"><img src="https://raw.githubusercontent.com/hurwan0629/RunStop/main/assets/service-screenshot/12.jpg" width="22%" alt="RunStop 실시간 러닝 화면"></a>
-
-</div>
-
-### 02 / More projects
-
-<table>
-<tr><td valign="top">
-
-<a href="https://github.com/hurwan0629/kdt-final-3-space-z"><img src="https://raw.githubusercontent.com/hurwan0629/kdt-final-3-space-z/main/assets/img/gpt_training/visual_006_full__step_001062.png" width="520" alt="Space Z 강화학습 시각화 기록"></a>
-
-<h4>Space Z · 강화학습 실험</h4>
-<p>Python/Pygame 게임을 강화학습 환경과 연결하고 PPO 학습을 실험한 팀 프로젝트입니다. 실험 과정과 시각화 기록을 저장소에서 확인할 수 있습니다.</p>
+<table width="100%"><tr><td>
+<h4>게임과 강화학습 실험</h4>
+<p>Python/Pygame 게임을 강화학습 환경과 연결하고 PPO 학습을 실험한 팀 프로젝트입니다. 이미지에는 게임의 대표 이미지와 실제 플레이 기록을 사용했습니다.</p>
 <p><code>Python</code> <code>Pygame</code> <code>PyTorch</code> <code>Gymnasium</code> <code>Stable-Baselines3</code></p>
-<p><a href="https://github.com/hurwan0629/kdt-final-3-space-z">코드 →</a> · <a href="https://github.com/hurwan0629/kdt-final-3-space-z/blob/main/src/space_z/rl/README.md">강화학습 문서 →</a></p>
+<p align="center">
+<img src="assets/space-z-cover.png" width="59%" alt="Space Z 프로젝트 Notion 대표 이미지">
+<img src="https://raw.githubusercontent.com/hurwan0629/kdt-final-3-space-z/main/assets/img/rotation_continuous/visual_selected_seed51001__step_012000.png" width="35%" alt="Space Z 실제 플레이 중 우주선 전직 선택 화면">
+</p>
+<p align="center"><sub>프로젝트 대표 이미지 · 실제 게임 플레이</sub></p>
+<p><a href="https://github.com/hurwan0629/kdt-final-3-space-z">코드와 README →</a> · <a href="https://github.com/hurwan0629/kdt-final-3-space-z/blob/main/src/space_z/rl/README.md">강화학습 환경 문서 →</a> · <a href="https://app.notion.com/p/3f7117a41d4d80c7920bc9feaf56b1ea">프로젝트 기록 →</a></p>
+</td></tr></table>
 
-</td></tr><tr><td valign="top">
+### 03 / Ornably
 
-<a href="https://github.com/hurwan0629/BugSandwichOrnamentMall/blob/main/src/main/webapp/ornamentDetailPage.jsp"><img src="assets/ornably-site.jpeg" width="300" alt="Ornably 웹 사이트의 크리스마스 오너먼트 상품 상세 페이지"></a>
-<p><sub>실제 상품 상세 페이지 화면 · 허완 포트폴리오 자료</sub></p>
-
-<h4>Ornably · 쇼핑몰 웹 서비스</h4>
+<table width="100%"><tr><td>
+<h4>쇼핑몰 웹 서비스</h4>
 <p><strong>2025.11.19 – 2026.01.08 · 4명 팀 프로젝트</strong></p>
 <p>로그인, 상품, 주문, 결제 흐름을 구현하며 웹 서비스의 구조를 학습한 프로젝트입니다. 저장소의 구현은 Java Servlet/JSP, JDBC, Oracle 기반입니다.</p>
 <p><code>Java</code> <code>Servlet / JSP</code> <code>JDBC</code> <code>Oracle</code></p>
-<p><a href="https://github.com/hurwan0629/BugSandwichOrnamentMall/blob/main/src/main/webapp/ornamentDetailPage.jsp">상품 상세 페이지 소스 →</a> · <a href="https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1">프로젝트 문서 →</a></p>
-
-</td></tr>
-</table>
+<p align="center"><img src="assets/ornably-site.jpeg" width="260" alt="Ornably 웹 사이트의 크리스마스 오너먼트 상품 상세 페이지"></p>
+<p align="center"><sub>실제 상품 상세 페이지 화면 · 허완 포트폴리오 자료</sub></p>
+<p><a href="https://github.com/hurwan0629/BugSandwichOrnamentMall">코드와 README →</a> · <a href="https://github.com/hurwan0629/BugSandwichOrnamentMall/blob/main/src/main/webapp/ornamentDetailPage.jsp">상품 상세 페이지 소스 →</a> · <a href="https://app.notion.com/p/2e3117a41d4d8048b1a6dda54bb58bc1">프로젝트 문서 →</a></p>
+</td></tr></table>
 
 ---
 
